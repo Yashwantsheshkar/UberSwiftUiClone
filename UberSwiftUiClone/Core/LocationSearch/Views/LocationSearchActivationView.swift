@@ -17,4 +17,3 @@ struct LocationSearchActivationView: View {
     LocationSearchActivationView()
 }
 
-h

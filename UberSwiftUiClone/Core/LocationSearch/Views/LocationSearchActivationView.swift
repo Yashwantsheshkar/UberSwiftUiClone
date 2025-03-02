@@ -9,7 +9,26 @@ import SwiftUI
 
 struct LocationSearchActivationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Rectangle().fill(Color.black).frame(width: 10, height: 10)
+                .padding(.horizontal)
+            Text("Where to ?")
+                .foregroundStyle(Color(.darkGray))
+            Spacer()
+            
+        }
+        .frame(width: UIScreen.main.bounds.width-60, height: 50)
+        .background(
+            Rectangle()
+                .fill(Color.white)
+                .shadow(radius: 6)
+            
+        )
+        
+       
+        
+        
+        
     }
 }
 
